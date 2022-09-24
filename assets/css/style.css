@@ -54,6 +54,9 @@ body {
 .wrapper {
     min-height: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
 }
 
 ._container {
@@ -133,3 +136,17 @@ body {
     font-weight: 600;
     line-height: calc(24 / 14 * 100%);
 }
+
+
+/* main -------------------------------------------------- */
+
+
+.page {
+    flex: 1 1 auto;
+}
+
+
+
+/* footer ----------------------------------------------- */
+
+.footer {}
