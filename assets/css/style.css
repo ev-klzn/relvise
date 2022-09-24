@@ -46,8 +46,9 @@ body {
     height: 100%;
     line-height: 1;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: #000;
+    font-size: 14px;
+    color: #252B42;
+    font-weight: 500;
 }
 
 .wrapper {
@@ -58,6 +59,8 @@ body {
 ._container {
     max-width: 1046px;
     margin: 0px auto;
+    padding: 0 15px;
+    box-sizing: content-box;
 }
 
 /* ---------------------------------------------------------------- */
@@ -76,14 +79,57 @@ body {
     align-items: center;
 }
 
-.header__logo {}
+@media (max-width: 479px) {
+    .header__container {
+        min-height: 70px;
+    }
+}
+
+.header__logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: inherit;
+}
 
 .header__menu {
     margin: 0px 0px 0px 133px;
 }
 
-.menu {}
+@media (max-width: 992px) {
+    .header__menu {
+        margin: 0 0 0 80px;
+    }
+}
 
-.menu__list {}
+@media (max-width: 767px) {
+    .header__menu {
+        margin: 0 0 0 40px;
+    }
+}
 
-.menu__link {}
+@media (max-width: 479px) {
+    .menu__link {
+        font-size: 18px;
+    }
+}
+
+.menu {
+    padding: 5px 0;
+}
+
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu__item {}
+
+.menu__item:not(:last-child) {
+    margin: 0 21px 0 0;
+}
+
+.menu__link {
+    color: #737373;
+    font-weight: 600;
+    line-height: calc(24 / 14 * 100%);
+}
