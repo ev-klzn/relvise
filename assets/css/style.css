@@ -194,7 +194,9 @@ body {
 }
 
 .mainblock__buttons {
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px 0;
 }
 
 .mainblock__button {
@@ -203,17 +205,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
     letter-spacing: 0.2px;
     padding: 5px 36px;
     min-height: 48px;
     font-weight: 700;
     line-height: 150%;
     text-align: center;
+    margin: 10px 0;
 }
 
 .mainblock__button:not(:last-child) {
-    margin: 0 10px 0 0px;
+    margin-right: 10px;
 }
 
 .mainblock__button_orange {
@@ -238,6 +240,32 @@ body {
 @media (max-width: 1300px) {
     .mainblock__img img {
         object-position: right;
+    }
+}
+
+@media (max-width: 992px) {
+    .mainblock__img {
+        opacity: 0.5;
+    }
+
+    .mainblock__body {
+        padding: 120px 0px 191px 0px;
+    }
+}
+
+@media (max-width: 479px) {
+    .mainblock__title {
+        font-size: 42px;
+    }
+
+    .mainblock__button {
+        flex: 1 1 auto;
+    }
+
+    .mainblock__text {
+        color: #2f2f2f;
+        font-size: 20px;
+        line-height: 150%;
     }
 }
 
