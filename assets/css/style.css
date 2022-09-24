@@ -235,7 +235,11 @@ body {
     /* object-fit: cover; */
 }
 
-
+@media (max-width: 1300px) {
+    .mainblock__img img {
+        object-position: right;
+    }
+}
 
 /* footer ----------------------------------------------- */
 
