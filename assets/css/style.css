@@ -269,6 +269,28 @@ body {
     }
 }
 
+/* ------------------------------------------------------ */
+.page__services {}
+
+.services {}
+
+.services__container {}
+
+.services__body {}
+
+.services__column {}
+
+.services__item {}
+
+.item-services {}
+
+.item-service__icon {}
+
+.item-service__title {}
+
+.item-service__text {}
+
+
 /* footer ----------------------------------------------- */
 
 .footer {}
