@@ -59,7 +59,7 @@ body {
 
 }
 
-._container {
+.container {
     max-width: 1046px;
     margin: 0px auto;
     padding: 0 15px;
@@ -166,8 +166,6 @@ body {
 }
 
 .mainblock__container {}
-
-._container {}
 
 .mainblock__body {
     padding: 185px 0px 191px 0px;
@@ -276,9 +274,15 @@ body {
 
 .services__container {}
 
-.services__body {}
+.services__body {
+    display: flex;
+    margin: 0px -15px;
+}
 
-.services__column {}
+.services__column {
+    padding: 0px 15px;
+    flex: 0 1 33.333%;
+}
 
 .services__item {}
 
