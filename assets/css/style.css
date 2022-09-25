@@ -404,7 +404,12 @@ body {
 
 }
 
-.advantages__icon {}
+.advantages__icon {
+    height: 48px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
 
 .advantages__value {
     font-size: 40px;
