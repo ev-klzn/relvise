@@ -666,9 +666,19 @@ body {
     line-height: 142%;
 }
 
-.whoweare__text {}
+.whoweare__title:not(:last-child) {
+    margin: 0px 0px 10px 0px;
+}
 
-.whoweare__items {}
+.whoweare__text {
+    color: #737373;
+    line-height: 142%;
+    letter-spacing: 0.2px;
+}
+
+.whoweare__items {
+    margin: 50px 0px 0px 0px;
+}
 
 .whoweare__item {}
 
