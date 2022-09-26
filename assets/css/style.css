@@ -522,14 +522,33 @@ body {
 }
 
 .item-practice__link {
-    letter-spacing: 0.1px;
+    color: inherit;
+    display: inline-block;
 }
 
-.item-practice__title {}
+.item-practice__link:hover {
+    text-decoration: underline;
+}
 
-.item-practice__text {}
+.item-practice__link:not(:last-child) {
+    margin-bottom: 15px;
+}
 
-.item-practice__img {}
+.item-practice__title {
+    letter-spacing: 0.1px;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 700;
+}
+
+.item-practice__text {
+    color: #737373;
+    line-height: 142%;
+}
+
+.item-practice__img {
+    padding-bottom: 69%;
+}
 
 
 /* footer ----------------------------------------------- */
