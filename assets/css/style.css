@@ -486,6 +486,51 @@ body {
     }
 }
 
+/* ------------------------------------------------------ */
+
+.page__practice {}
+
+.practice {
+    padding: 125px 0px 80px 0px;
+}
+
+.practice__container {}
+
+.practice__header {
+    margin-bottom: 45px;
+}
+
+.practice__body {
+    margin: 0px -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.practice__column {
+    padding: 0px 15px;
+    flex: 0 1 25%;
+}
+
+.practice__item {}
+
+.item-practice {
+    background-color: #FFFFFF;
+}
+
+.item-practice__content {
+    padding: 30px;
+}
+
+.item-practice__link {
+    letter-spacing: 0.1px;
+}
+
+.item-practice__title {}
+
+.item-practice__text {}
+
+.item-practice__img {}
+
 
 /* footer ----------------------------------------------- */
 
