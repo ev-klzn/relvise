@@ -254,7 +254,7 @@ body {
 }
 
 .main-block__orange:hover {
-    color: rgb(0, 0, 0);
+    color: #0D5C63;
     background: #fd4800;
 }
 
@@ -264,9 +264,9 @@ body {
 }
 
 .main-block__button-border:hover {
-    color: #000000;
+    color: #fff;
     border: 1px solid #0D5C63;
-    background-color: #01b2c2;
+    background-color: #0D5C63;
 }
 
 .main-block__image {
@@ -657,7 +657,7 @@ body {
 
 .whoweare__content {
     flex: 1 1 auto;
-    padding: 0px 0px 0px 121px;
+    padding: 20px 0px 0px 121px;
 }
 
 .whoweare__title {
