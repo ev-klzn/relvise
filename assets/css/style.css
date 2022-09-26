@@ -501,13 +501,13 @@ body {
 }
 
 .practice__body {
-    margin: 0px -15px;
+    margin: 0px -20px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .practice__column {
-    padding: 0px 15px;
+    padding: 0px 20px;
     flex: 0 1 25%;
 }
 
@@ -547,7 +547,8 @@ body {
 }
 
 .item-practice__img {
-    padding-bottom: 69%;
+    display: block;
+    padding-bottom: 60%;
 }
 
 
