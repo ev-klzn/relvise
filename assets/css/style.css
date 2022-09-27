@@ -1075,13 +1075,14 @@ body {
 
 .contact__button {
     display: flex;
-    background: #FF7B47;
+    background-color: #FF7B47;
     border-radius: 5px;
     min-height: 58px;
     padding: 5px 40px;
-    text-align: center;
-    justify-content: center;
     color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .contact__button:hover {
