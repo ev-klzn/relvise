@@ -996,6 +996,15 @@ body {
     color: white;
 }
 
+.item__getintouch-green {
+    background-color: #252B42;
+    color: #fff;
+}
+
+.item__getintouch-green .item__getintouch-button{
+    border: 1px solid #fff;
+    color: #fff;
+}
 /* footer ----------------------------------------------- */
 
 .footer {}
