@@ -628,7 +628,12 @@ body {
     padding: 80px 0px 130px 0px;
 }
 
-.whoweare {}
+
+@media(max-width: 950px) {
+    .whoweare {
+        padding: 80px 0px 130px 0px;
+    }
+}
 
 .whoweare__container {}
 
@@ -638,6 +643,13 @@ body {
 
 .whoweare__body {
     display: flex;
+    align-items: flex-start;
+}
+
+@media(max-width: 950px) {
+    .whoweare__body {
+        flex-direction: column-reverse;
+    }
 }
 
 .whoweare__video {
@@ -658,6 +670,12 @@ body {
 .whoweare__content {
     flex: 1 1 auto;
     padding: 20px 0px 0px 121px;
+}
+
+@media(max-width: 1080px) {
+    .whoweare__content {
+        padding: 0px 0px 0px 50px;
+    }
 }
 
 .whoweare__title {
