@@ -703,7 +703,11 @@ body {
 
 .item-whoweare__text {
     color: #737373;
+    white-space: nowrap;
     line-height: 142%;
+    width: 225px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 @media(max-width: 1080px) {
