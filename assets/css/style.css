@@ -720,22 +720,30 @@ body {
     .whoweare__body {
         flex-direction: column-reverse;
         align-items: stretch;
-        margin-bottom: 20xp;
+        /* margin-bottom: 20px; */
+    }
+
+    .whoweare__title {
+        font-size: 24px;
+    }
+
+    .whoweare__content {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .whoweare__video {
+        padding: 0px 0px 56.25% 0px;
+    }
+
+    .whoweare__video:not(:last-child) {
+        margin: 50px 0px 50px 0px;
     }
 
     .whoweare__header {
         margin: 0px 0px 30px 0px;
     }
 
-    .whoweare__title {
-        font-weight: 800;
-        font-size: 24px;
-        line-height: 142%;
-    }
 
-    .whoweare__content {
-        padding: 0px 0px 0px 0px;
-    }
 }
 
 
