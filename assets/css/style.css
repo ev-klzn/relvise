@@ -781,11 +781,24 @@ body {
 
 .page__clients {}
 
-.clients {}
+.clients {
+    padding: 50px 0;
+}
 
 .clients__contaier {}
 
-.clients__items {}
+.clients__items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients__item {
+    flex: 0 1 16.667%;
+    text-align: center;
+    padding: 8px 15px;
+}
 
 /* footer ----------------------------------------------- */
 
