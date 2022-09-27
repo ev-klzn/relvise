@@ -769,11 +769,6 @@ body {
     font-size: 14px;
     line-height: 142%;
     letter-spacing: 0.2px;
-    /* ДЛЯ Троеточия в тексте
-    white-space: nowrap;
-    width: 225px;
-    text-overflow: ellipsis;
-    overflow: hidden; */
 }
 
 @media (max-width: 950px) {
@@ -782,6 +777,15 @@ body {
     }
 }
 
+/* ------------------------------------------------------ */
+
+.page__clients {}
+
+.clients {}
+
+.clients__contaier {}
+
+.clients__items {}
 
 /* footer ----------------------------------------------- */
 
