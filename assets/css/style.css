@@ -848,9 +848,14 @@ body {
     border: 1px solid #E6E6E6;
     box-sizing: border-box;
     border-radius: 5px 0px 0px 5px;
-    color: #fff;
     color: #737373;
     padding: 0px 20px;
+    border-right: 0px;
+}
+
+.subscribe__input:focus {
+    color: black;
+
 }
 
 .subscribe__button {
