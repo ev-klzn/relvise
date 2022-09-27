@@ -816,6 +816,7 @@ body {
 
 .subscribe {
     position: relative;
+    padding-bottom: 20px;
 }
 
 .subscribe::before {
@@ -833,19 +834,44 @@ body {
 .subscribe__container {}
 
 .subscribe__body {
-    margin: 0 30px;
-    display: flex;
     padding: 30px 50px;
     align-items: center;
     background-color: #17213C;
-    justify-content: space-between;
     position: relative;
     z-index: 2;
+}
 
+@media (min-width: 1070px) {
+    .subscribe__body {
+        margin: 0px 30px;
+    }
+}
+
+@media (max-width: 810px) {
+    .subscribe__title {
+        display: flex;
+        margin: 0 0 20px 0;
+    }
+
+    .subscribe__body {
+        margin: 0 -15px;
+        padding: 20px 15px;
+    }
+}
+
+@media (min-width: 810px) {
+    .subscribe__body {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .subscribe__title {
+        max-width: 266px;
+    }
 }
 
 .subscribe__title {
-    max-width: 266px;
+
     font-size: 24px;
     line-height: 133%;
     letter-spacing: 0.1px;
@@ -860,6 +886,7 @@ body {
 }
 
 .subscribe__input {
+    width: 100%;
     flex: 1 1 auto;
     min-height: 58px;
     border: 1px solid #E6E6E6;
