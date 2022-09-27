@@ -916,7 +916,85 @@ body {
 
 /* ------------------------------------------------------ */
 
+.page__getintouch {}
 
+.getintouch {
+    padding: 80px 0 135px 0;
+}
+
+.getintouch__container {}
+
+.getintouch__header {
+    margin: 0 0 80px 0;
+}
+
+.getintouch__items {
+    display: flex;
+    align-items: center;
+}
+
+.getintouch__item {
+    flex: 0 1 33.333%;
+}
+
+.item__getintouch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 50px 15px;
+}
+
+.item__getintouch>*:not(:last-child) {
+    margin-bottom: 15px;
+
+}
+
+.item__getintouch-icon:not(:last-child) {}
+
+.item__getintouch-emails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item__getintouch-email {
+    color: inherit;
+    font-weight: 600;
+    line-height: 150%;
+    font-size: 16px;
+}
+
+.item__getintouch-email:hover {
+    text-decoration: underline;
+}
+
+.item__getintouch-label {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.item__getintouch-button {
+    border: 1px solid #FF7B47;
+    border-radius: 5px;
+    min-height: 44px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #FF7B47;
+    line-height: 142%;
+    font-weight: 600;
+    transition: all 0.3s ease 0s;
+}
+
+.item__getintouch-button:hover {
+    background-color: #FF7B47;
+    color: white;
+}
 
 /* footer ----------------------------------------------- */
 
