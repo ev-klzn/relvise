@@ -308,6 +308,12 @@ body {
     margin-bottom: 10px;
 }
 
+.page__advantages {
+    margin-top: 60px;
+}
+
+.advantages {}
+
 .page__subscribe {}
 
 .page__getintouch {}
@@ -638,7 +644,7 @@ body {
 .whoweare__container {}
 
 .whoweare__header {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 950px) {
