@@ -254,8 +254,8 @@ body {
 }
 
 .main-block__orange:hover {
-    color: #0D5C63;
-    background: #fd4800;
+    color: #fd4800;
+    background: white;
 }
 
 .main-block__button-border {
@@ -1228,6 +1228,7 @@ body {
 
     .footer__copy {
         margin-bottom: 15px;
+        text-align: center;
     }
 }
 
