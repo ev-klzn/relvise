@@ -1201,7 +1201,10 @@ body {
     }
 }
 
-.footer__copy {}
+.footer__copy {
+    color: #737373;
+    line-height: 171%;
+}
 
 .footer__social {
     display: flex;
