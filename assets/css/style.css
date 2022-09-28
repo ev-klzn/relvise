@@ -1135,6 +1135,8 @@ body {
 .footer__link {
     color: #fff;
     letter-spacing: 0.2px;
+    line-height: 171%;
+    display: inline-block;
 }
 
 .footer__link:hover {
@@ -1181,14 +1183,33 @@ body {
 }
 
 
-.footter__bottom {}
+.footter__bottom {
+    padding: 25px 10px;
+}
 
-.footer__container {}
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 767px) {
+    .footer__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
 
 .footer__copy {}
 
-.footer__social {}
+.footer__social {
+    display: flex;
+    align-items: center;
+}
 
 .social {}
 
-.social__item {}
+.social__item:not(:last-child) {
+    margin-right: 20px;
+}
