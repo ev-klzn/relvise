@@ -906,12 +906,14 @@ body {
     border: 1px solid #E6E6E6;
     border-radius: 0px 5px 5px 0px;
     color: #fff;
+    cursor: pointer;
     display: flex;
     min-height: 58px;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 0px 20px;
+    transition: all 0.3s ease 0s;
 }
 
 /* ------------------------------------------------------ */
@@ -1083,6 +1085,7 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
+    transition: all 0.3s ease 0s;
 }
 
 .contact__button:hover {
