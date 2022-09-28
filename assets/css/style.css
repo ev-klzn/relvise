@@ -1092,3 +1092,103 @@ body {
 /* footer ----------------------------------------------- */
 
 .footer {}
+
+.footer__top {
+    background: #17213C;
+    padding: 50px 0;
+}
+
+.footer__main {}
+
+.footer__row {
+    display: flex;
+    margin: 0 15px;
+}
+
+.footer__column {
+    padding: 0 15px;
+    flex: 0 1 20%;
+}
+
+.footer__label {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0 0 20px 0;
+
+}
+
+.footer__menu {}
+
+
+.menu__footer {}
+
+.menu-footer__list {}
+
+.menu-footer__item {}
+
+.menu-footer__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    color: #fff;
+    letter-spacing: 0.2px;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+
+.footer__contacts {
+    color: #fff;
+}
+
+.contacts-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-footer__item {
+    color: #fff;
+    padding-left: 34px;
+    display: flex;
+    align-items: center;
+    min-height: 30px;
+    line-height: 142%;
+}
+
+.contacts-footer__item:hover {
+    text-decoration: underline;
+}
+
+.contacts-footer__item:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.contacts-footer__phone {
+    background: url(../img/footer/icons/01.svg) left no-repeat;
+}
+
+.contacts-footer__map {
+    background: url(../img/footer/icons/02.svg) left no-repeat;
+}
+
+.contacts-footer__email {
+    background: url(../img/footer/icons/03.svg) left no-repeat;
+}
+
+
+.footter__bottom {}
+
+.footer__container {}
+
+.footer__copy {}
+
+.footer__social {}
+
+.social {}
+
+.social__item {}
